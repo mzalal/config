@@ -5,7 +5,8 @@ local SYSTEM_TITLE_BAR_COLOR = "#292c30"
 local ACTIVE_TAB_BG_COLOR = "#080808"
 local TAB_FG_COLOR = "#b3b1ad"
 
-config.initial_cols = 90
+config.initial_cols = 105
+config.initial_rows = 30
 config.hide_tab_bar_if_only_one_tab = true
 config.color_scheme = "Moonfly (Gogh)"
 config.harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
