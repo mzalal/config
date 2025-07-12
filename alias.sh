@@ -6,11 +6,11 @@ alias cm="cd ~/Projects/campdown/development"
 
 # Git
 alias gl="git log --oneline"
-alias gll="git long"
+alias gll="git log"
 alias gs="git status"
 alias ga="git add"
 alias gaa="git add -A"
-aliad gc="git commit"
+alias gc="git commit"
 
 # SSH
 alias ssh-primary="ssh-add -D && ssh-add ~/.ssh/id_ed25519"
