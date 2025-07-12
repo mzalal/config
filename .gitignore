@@ -10,3 +10,5 @@
 
 !wezterm/
 !wezterm/**
+
+!alias.sh
