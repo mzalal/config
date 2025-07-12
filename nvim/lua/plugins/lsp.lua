@@ -15,7 +15,7 @@ return {
 				"ts_ls",
 				"html",
 				"cssls",
-				"pyright",
+				"pylsp",
 			},
 		})
 
@@ -42,7 +42,7 @@ return {
 		vim.lsp.config("bashls", { capabilities = capabilities })
 		vim.lsp.config("html", { capabilities = capabilities })
 		vim.lsp.config("cssls", { capabilities = capabilities })
-		vim.lsp.config("pyright", { capabilities = capabilities })
+		vim.lsp.config("pylsp", { capabilities = capabilities })
 
 		vim.keymap.set("n", "<C-A-m>", "<cmd>Mason<cr>")
 		vim.keymap.set("n", "<leader>ga", vim.lsp.buf.code_action)
