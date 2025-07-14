@@ -9,6 +9,9 @@ return {
 	config = function()
 		require("telescope").setup({
 			extensions = {
+				file_browser = {
+					hijack_netrw = true,
+				},
 				["ui-select"] = {
 					require("telescope.themes").get_dropdown(),
 				},
