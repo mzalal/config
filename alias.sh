@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Projects
-alias on="cd ~/Projects/online_tools/development"
-alias cm="cd ~/Projects/campdown/development"
+alias on="cd ~/Projects/online_tools"
+alias cm="cd ~/Projects/campdown"
 
 # Git
 alias gl="git log --oneline"
