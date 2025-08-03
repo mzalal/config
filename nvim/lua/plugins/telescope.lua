@@ -11,6 +11,7 @@ return {
 			extensions = {
 				file_browser = {
 					hijack_netrw = true,
+					hidden = true,
 				},
 				["ui-select"] = {
 					require("telescope.themes").get_dropdown(),
