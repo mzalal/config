@@ -45,6 +45,7 @@ return {
 		vim.lsp.config("cssls", { capabilities = capabilities })
 		vim.lsp.config("pylsp", { capabilities = capabilities })
 		vim.lsp.config("emmet_language_server", { capabilities = capabilities })
+		vim.lsp.config("django-template-lsp", { capabilities = capabilities })
 
 		vim.keymap.set("n", "<C-A-m>", "<cmd>Mason<cr>")
 		vim.keymap.set("n", "<leader>ga", vim.lsp.buf.code_action)

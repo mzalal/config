@@ -12,6 +12,7 @@ return {
 				javascriptreact = { "prettier" },
 				markdown = { "prettier" },
 				python = { "black" },
+				htmldjango = { "djlint" },
 			},
 		})
 
