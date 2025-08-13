@@ -8,6 +8,12 @@ return {
 				section_separators = "",
 			},
 			sections = {
+				lualine_a = {
+					{
+						"filename",
+						path = 4,
+					},
+				},
 				lualine_x = { "encoding", "filetype" },
 			},
 		})
