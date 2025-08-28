@@ -11,4 +11,5 @@
 !wezterm/
 !wezterm/**
 
-!alias.sh
+!bash/
+!bash/**
