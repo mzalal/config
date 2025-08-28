@@ -47,6 +47,9 @@ o.wrap = false
 -- Make sure the last window/split always has a status line
 o.laststatus = 2
 
+-- Hide the command line
+o.cmdheight = 0
+
 -- Show the cursor position
 o.ruler = true
 
