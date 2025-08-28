@@ -13,3 +13,7 @@
 
 !bash/
 !bash/**
+
+!tmux/
+!tmux/**
+tmux/plugins/
