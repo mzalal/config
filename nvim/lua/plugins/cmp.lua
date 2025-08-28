@@ -5,6 +5,7 @@ return {
 		"saadparwaiz1/cmp_luasnip",
 		"rafamadriz/friendly-snippets",
 		"hrsh7th/cmp-nvim-lsp",
+		"hrsh7th/cmp-buffer",
 		"brenoprata10/nvim-highlight-colors",
 	},
 	config = function()
