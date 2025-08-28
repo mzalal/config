@@ -17,3 +17,5 @@
 !tmux/
 !tmux/**
 tmux/plugins/
+
+!setup.sh
