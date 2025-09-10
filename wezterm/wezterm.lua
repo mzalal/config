@@ -8,6 +8,7 @@ local TAB_FG_COLOR = "#b3b1ad"
 config.initial_cols = 105
 config.initial_rows = 30
 config.hide_tab_bar_if_only_one_tab = true
+config.use_fancy_tab_bar = false
 config.color_scheme = "Moonfly (Gogh)"
 config.harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
 
@@ -17,6 +18,7 @@ config.window_frame = {
 
 config.colors = {
 	tab_bar = {
+		background = SYSTEM_TITLE_BAR_COLOR,
 		active_tab = {
 			bg_color = ACTIVE_TAB_BG_COLOR,
 			fg_color = TAB_FG_COLOR,
