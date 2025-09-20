@@ -5,6 +5,9 @@ return {
 			anti_conceal = {
 				enabled = false,
 			},
+			sign = {
+				enabled = false,
+			},
 		})
 	end,
 }
