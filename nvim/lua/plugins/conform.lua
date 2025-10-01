@@ -11,6 +11,7 @@ return {
 				javascript = { "prettier" },
 				javascriptreact = { "prettier" },
 				markdown = { "prettier" },
+				json = { "prettier" },
 				python = { "black" },
 				htmldjango = { "djlint" },
 			},
