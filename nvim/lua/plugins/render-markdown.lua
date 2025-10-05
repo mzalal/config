@@ -9,5 +9,7 @@ return {
 				enabled = false,
 			},
 		})
+
+		vim.keymap.set("n", "<leader>rr", "<cmd>RenderMarkdown buf_toggle<cr>")
 	end,
 }
