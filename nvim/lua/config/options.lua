@@ -29,6 +29,10 @@ o.expandtab = true -- Convert tab into spaces
 o.wildmenu = true -- Use a menu for command-line completion
 o.wildoptions = { "pum", "tagfile" } -- Set how command-lime completion menu should behave
 
+-- Line wrapping
+o.wrap = false -- Disable line wrapping
+o.linebreak = true -- Soft wrap lines when wrap is enabled
+
 -- Enable 24-bit RGB colors in the TUI
 o.termguicolors = true
 
@@ -40,9 +44,6 @@ o.autoread = true
 
 -- Make sure that Neovim uses text colors that look good on dark background
 o.background = "dark"
-
--- Do not wrap lines
-o.wrap = false
 
 -- Make sure the last window/split always has a status line
 o.laststatus = 2
