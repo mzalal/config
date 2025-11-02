@@ -42,7 +42,7 @@ sudo dnf update @multimedia -y --setopt=\"install_weak_deps=False\" --exclude=Pa
 
 step "Install NVM/Node.js"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-source ~/.bashrc
+source $HOME/.bashrc
 nvm install --lts
 nvm use --lts
 
@@ -68,13 +68,13 @@ sudo dnf install -y\
 
 step "Set configuration files"
 git clone https://github.com/mzalal/config
-cp -r ./. ~/.config
+cp -r ./. $HOME/.config
 
 step "Generate SSH keys"
-ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N "" -C "PRIMARY"
-ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_secondary -N "" -C "SECONDARY"
+ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519 -N "" -C "PRIMARY"
+ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519_secondary -N "" -C "SECONDARY"
 
 step "Source Bash configuration files"
-echo "" >> ~/.bashrc
-echo "source ~/.config/bash/alias.sh" >> ~/.bashrc
-echo "source ~/.config/bash/prompt.sh" >> ~/.bashrc
+echo "" >> $HOME/.bashrc
+echo "source $HOME/.config/bash/alias.sh" >> ~/.bashrc
+echo "source $HOME/.config/bash/prompt.sh" >> ~/.bashrc
