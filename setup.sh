@@ -67,7 +67,6 @@ sudo dnf install -y\
     code
 
 step "Set configuration files"
-git clone https://github.com/mzalal/config
 cp -rfv . $HOME/.config
 
 step "Generate SSH keys"
