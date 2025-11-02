@@ -64,7 +64,8 @@ sudo dnf install -y --skip-unavailable\
     btop\
     virt-manager\
     brave-browser\
-    code
+    code\
+    foliate
 
 step "Set configuration files"
 cp -rfv . $HOME/.config
