@@ -47,7 +47,7 @@ nvm install --lts
 nvm use --lts
 
 step "Install various packages"
-sudo dnf install -y\
+sudo dnf install -y --skip-unavailable\
     neovim\
     tmux\
     wezterm\
