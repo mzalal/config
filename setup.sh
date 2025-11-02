@@ -68,7 +68,7 @@ sudo dnf install -y\
 
 step "Set configuration files"
 git clone https://github.com/mzalal/config
-cp -r . $HOME/.config
+cp -rfv . $HOME/.config
 
 step "Generate SSH keys"
 ssh-keygen -t ed25519 -f $HOME/.ssh/id_ed25519 -N "" -C "PRIMARY"
