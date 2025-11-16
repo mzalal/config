@@ -27,7 +27,6 @@ sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flat
 
 step "Enable COPR repositories"
 sudo dnf copr enable wezfurlong/wezterm-nightly -y
-sudo dnf copr enable zawertun/kde-kup -y
 
 step "Add Brave Browser repository"
 sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
@@ -51,7 +50,7 @@ sudo dnf install -y --skip-unavailable\
     neovim\
     tmux\
     wezterm\
-    kde-kup\
+    vorta\
     syncthing\
     keepassxc\
     lua\
